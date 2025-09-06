@@ -1,0 +1,10 @@
+localStorage.setItem('name', 'John Doe');
+console.log('Name stored in localStorage');
+console.log('This is app2.js file');
+let name = localStorage.getItem('name');
+let asas=["salam",123,"sagol"];
+localStorage.setItem (("array"), JSON.stringify(asas));
+let array=JSON.parse(localStorage.getItem("array"));
+console.log(array[2]);
+document.getElementById("salam").innerHTML=array;
+console.log(name);
